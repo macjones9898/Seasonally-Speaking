@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Autumn — Seasonally Speaking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body { background-color: transparent; font-family: 'Cinzel', serif; text-align: center; }
+    .season-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background-color: rgba(210, 105, 30, 0.15);
+      pointer-events: none; z-index: 0;
+    }
+    .home-button {
+      margin-top: 20px; display: flex; justify-content: center; align-items: center; gap: 20px; position: relative; z-index: 1;
+    }
+    .home-button img { width: 150px; }
+    .circle {
+      width: 20px; height: 20px; border-radius: 50%; background-color: #D2691E;
+    }
+    .season-title img {
+      margin: 60px auto 40px; max-width: 480px; width: 90%; height: auto; position: relative; z-index: 1;
+    }
+    .navigation {
+      display: flex; justify-content: center; align-items: center; gap: 100px; margin-top: 40px; position: relative; z-index: 1;
+    }
+    .arrow {
+      width: 80px; height: auto; transition: transform 0.2s ease;
+    }
+    .arrow:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body>
+  <div class="season-overlay"></div>
+  <div class="home-button">
+    <div class="circle"></div>
+    <a href="../index.html"><img src="../assets/homeautumn.png" alt="Home" /></a>
+    <div class="circle"></div>
+  </div>
+  <div class="season-title">
+    <img src="../assets/Autumn.png" alt="Autumn Drawing" />
+  </div>
+  <div class="navigation">
+    <a href="summer.html"><img src="../assets/summerarrowleft.png" alt="Back to Summer" class="arrow" /></a>
+    <a href="ending.html"><img src="../assets/winterarrowright.png" alt="Forward to Winter" class="arrow" /></a>
+  </div>
+  <audio controls>
+  <source src="../assets/autumn.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
+
+

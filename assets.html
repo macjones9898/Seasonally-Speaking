@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seasonally Speaking — Assets & Credits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-image: url('assets/papertexture.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #fdfdf7;
+      margin: 0;
+      padding: 80px 40px 40px 40px;
+      font-family: 'Cinzel', serif;
+      text-align: left;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 0 auto 60px auto;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 4px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+
+   
+    .asset-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 40px;
+      gap: 40px;
+    }
+
+    .asset-row.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .asset-text {
+      flex: 1;
+      min-width: 220px;
+      max-width: 300px;
+    }
+
+    .asset-grid {
+      flex: 2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: flex-start;
+    }
+
+    .asset-grid img {
+      width: 80px;
+      height: auto;
+      border: 1px solid #000;
+      background-color: white;
+      padding: 4px;
+    }
+
+    .audio-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .audio-list audio {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Assets & Credits</h1>
+
+  <section>
+    <p>All drawings, arrows, home buttons, and sounds were made specifically for this project.</p>
+
+    <div class="asset-row">
+      <div class="asset-grid">
+        <a href="seasons/winter.html"><img src="assets/Winter.png" alt="Winter Drawing" /></a>
+        <a href="seasons/spring.html"><img src="assets/Spring.png" alt="Spring Drawing" /></a>
+        <a href="seasons/summer.html"><img src="assets/Summer.png" alt="Summer Drawing" /></a>
+        <a href="seasons/autumn.html"><img src="assets/Autumn.png" alt="Autumn Drawing" /></a>
+      </div>
+      <div class="asset-text">
+        <h3>Season Drawings</h3>
+        <p>Each season was represented through a digital drawing.</p>
+      </div>
+    </div>
+
+    <div class="asset-row reverse">
+      <div class="asset-grid">
+        <img src="assets/winterarrowleft.png" alt="Winter Left" />
+        <img src="assets/winterarrowright.png" alt="Winter Right" />
+        <img src="assets/springarrowleft.png" alt="Spring Left" />
+        <img src="assets/springarrowright.png" alt="Spring Right" />
+        <img src="assets/summerarrowleft.png" alt="Summer Left" />
+        <img src="assets/summerarrowright.png" alt="Summer Right" />
+        <img src="assets/autumnarrowleft.png" alt="Autumn Left" />
+        <img src="assets/autumnarrowright.png" alt="Autumn Right" />
+      </div>
+      <div class="asset-text">
+        <h3>Directional Arrows</h3>
+        <p>Each arrow was drawin in seasonal colors and used for navigation.</p>
+      </div>
+    </div>
+
+    <div class="asset-row">
+      <div class="asset-grid">
+        <a href="index.html"><img src="assets/homewinter.png" alt="Home Winter" /></a>
+        <a href="index.html"><img src="assets/homespring.png" alt="Home Spring" /></a>
+        <a href="index.html"><img src="assets/homesummer.png" alt="Home Summer" /></a>
+        <a href="index.html"><img src="assets/homeautumn.png" alt="Home Autumn" /></a>
+      </div>
+      <div class="asset-text">
+        <h3>Home Buttons</h3>
+        <p>Home buttons were designed to match each season’s tone and placed at the top of each page.</p>
+      </div>
+    </div>
+
+    <div class="asset-row reverse">
+      <div class="audio-list">
+        <audio controls>
+          <source src="assets/winter.mp3" type="audio/mpeg" />
+        </audio>
+        <audio controls>
+          <source src="assets/spring.mp3" type="audio/mpeg" />
+        </audio>
+        <audio controls>
+          <source src="assets/summer.mp3" type="audio/mpeg" />
+        </audio>
+        <audio controls>
+          <source src="assets/autumn.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+      <div class="asset-text">
+        <h3>Audio</h3>
+        <p>Each season includes a sound element, created using GarageBand and Audacity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Texture Attribution</h2>
+    <ul>
+      <li>“Paper texture filter” by kelan. CC0. Openclipart.org March, 6, 2009 https://openclipart.org/detail/21951/paper-texture-filter</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

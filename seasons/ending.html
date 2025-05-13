@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seasonally Speaking — Ending</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body {
+      background-image: url('../assets/papertexture.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #fdfdf7;
+      margin: 0;
+      padding: 40px;
+      font-family: 'Cinzel', serif;
+      text-align: center;
+    }
+
+    .season-row {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .season-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .season-block img.drawing {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+      border: 2px solid #000;
+      background-color: #fff;
+    }
+
+    .season-label {
+      margin-top: 12px;
+      font-family: 'Cinzel', serif;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+
+    .winter-label { color: #0000EE; }
+    .spring-label { color: #00cc44; }
+    .summer-label { color: #FF0000; }
+    .autumn-label { color: #D2691E; }
+
+    .ending-text {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="season-row">
+    <a href="winter.html" class="season-block">
+      <img src="../assets/Winter.png" alt="Winter Drawing" class="drawing" />
+      <div class="season-label winter-label">Winter</div>
+    </a>
+    <a href="spring.html" class="season-block">
+      <img src="../assets/Spring.png" alt="Spring Drawing" class="drawing" />
+      <div class="season-label spring-label">Spring</div>
+    </a>
+    <a href="summer.html" class="season-block">
+      <img src="../assets/Summer.png" alt="Summer Drawing" class="drawing" />
+      <div class="season-label summer-label">Summer</div>
+    </a>
+    <a href="autumn.html" class="season-block">
+      <img src="../assets/Autumn.png" alt="Autumn Drawing" class="drawing" />
+      <div class="season-label autumn-label">Autumn</div>
+    </a>
+  </div>
+
+  <p class="ending-text">Thanks for moving through the seasons.</p>
+
+  <p style="font-size: 0.9rem; margin-top: 20px;">
+    <a href="../assets.html">View Assets & Credits</a>
+  </p>
+
+</body>
+</html>
